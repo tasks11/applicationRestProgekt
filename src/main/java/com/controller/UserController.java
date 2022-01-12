@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Component
-public class UserRestController {
+public class UserController {
 
     final static RestTemplate restTemplate = new RestTemplate();
     private static String url = "http://91.241.64.178:7081/api/users";
